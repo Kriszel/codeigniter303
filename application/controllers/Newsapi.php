@@ -34,4 +34,9 @@ class Newsapi extends RestController
 		$this->db->update('news', $input, array ('id'=>$id));
 		$this->response(['News sueccessfully updated'], 200);
 	}
+	public function index_delete($id)
+	{
+		$this-db-delete('news', array(('id'=>$id)));
+		$this->response(['Item successfully deleted'], REST_Controller::HTTP_OK);
+	}
 }
