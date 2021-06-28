@@ -25,7 +25,13 @@ class Newsapi extends RestController
 	public function index_post()
 	{
 		$input = $this->input->post();
-		$this->db->insert('heroku_9a33627d4fcc7f9.newtable',$input);
+		$this->db->insert('news',$input);
 		$this-response(['News successfully created'], 200);
+	}
+	public function index_put($id)
+	{
+		$input = $this->put();
+		$this->db->update('news', $input, array ('id'=>$id));
+		$this->response(['News sueccessfully updated'], 200);
 	}
 }
