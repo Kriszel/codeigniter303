@@ -32,11 +32,20 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0a58bf1a9e7b6dffd6c3e581883d4ab0e912ff2a',
+    'reference' => '0e2a76feca820564cdd1816e7100e7ac42b5c899',
     'name' => 'codeigniter/framework',
   ),
   'versions' => 
   array (
+    'chriskacerguis/codeigniter-restserver' => 
+    array (
+      'pretty_version' => '3.1.1',
+      'version' => '3.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6ced70d12c7e8d207eaded3f208a201330950b57',
+    ),
     'codeigniter/framework' => 
     array (
       'pretty_version' => 'dev-main',
@@ -44,7 +53,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0a58bf1a9e7b6dffd6c3e581883d4ab0e912ff2a',
+      'reference' => '0e2a76feca820564cdd1816e7100e7ac42b5c899',
     ),
     'doctrine/instantiator' => 
     array (

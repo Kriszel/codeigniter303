@@ -12,6 +12,10 @@ class ComposerStaticInitbc41d82c57d0a42766f80c1fa7ed403b
     );
 
     public static $prefixLengthsPsr4 = array (
+        'c' => 
+        array (
+            'chriskacerguis\\RestServer\\' => 26,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -25,6 +29,10 @@ class ComposerStaticInitbc41d82c57d0a42766f80c1fa7ed403b
     );
 
     public static $prefixDirsPsr4 = array (
+        'chriskacerguis\\RestServer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/chriskacerguis/codeigniter-restserver/src',
+        ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
