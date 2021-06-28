@@ -35,6 +35,15 @@ defined ('BASEPATH') OR exit('No direct script access allowed');
             $this->load->view('news/view'), $data;
             $this->load->view)('templates/footer'; $data)
         }
-
-
+		
+		public function vanillaget()
+		{
+			$this->load->view('news/vanillaget');
+		}
+		
+		public fucntion fetchget()
+		{
+			$this->load->view('news/fetchget');
+		}
     }
+}
